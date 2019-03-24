@@ -21,22 +21,25 @@
         <div class="header">
             <h1>Stephanie Jones</h1>
             <h2>Full-Stack Web Developer</h2>
-            <h3></h3><i class="fas fa-map-pin"></i> Denver, CO</h3>
-            </h3>
+            <h3>Denver, CO</h3>
+
             <div class="icon-bar">
                 <a class="active" href="http://www.stephaniejoneswebdev.com/" target="_blank"> <i
                         class="fa fa-home"></i></a>
                 <a href="https://github.com/StephanieRuthJones" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://linkedin.com/in/stephjwebdev/" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="#" onClick="showPhoneNumber()"><i class="fas fa-phone"></i></a>
-                <a href="mailTo:stephanieruthjones@gmail.com"><i class="far fa-envelope"></i></a>
+                <a href="#" onClick="showEmail()"><i class="far fa-envelope"></i></a>
 
             </div>
             <div id="phone" class="hidden">
                 <p>Phone: 781.864.8574</p>
             </div>
+            <div id="email" class="hidden">
+                <p>Email: StephanieRuthJones@gmail.com</p>
+            </div>
         </div>
-        <div class="skills">
+        <div i class="skills">
             <h4>Skills</h4>
             <div class="details">
                 <p>JavaScript<br>
@@ -81,7 +84,9 @@
             <div class="details">
                 <p>Improvisational Theater <br>
                     Sketch Comedy<br>
-                    Basketball / Hiking / Biking<br>
+                    Basketball<br>
+                    Hiking<br>
+                    Biking<br>
                     Metal Detecting
             </div>
         </div>
@@ -91,9 +96,30 @@
         <div class="main">
             <h4>Projects</h4>
             <div class="project">
+                <h5>DAILY DAD JOKES</h5>
+                <p>
+                    <u>Description</u>: A full-stack application which displays current date, a dad photo, and a dad
+                    joke.<br>
+                    <u><i>Built with</u>: React.js, CSS, Node.js, Express, Knex</i><br>
+                    <u>Repository</u>: <a href="https://github.com/StephanieRuthJones/dadjokesFrontend"
+                        target="_blank">https://github.com/StephanieRuthJones/dadjokesFrontend</a><br>
+                </p>
+            </div>
+            <div class="project">
+                <h5>BRETT WILSON UPHOLSTERY</h5>
+                <p>
+                    <u>Description</u>: A landing page for local artist and furniture upholsterer, Brett Wilson. Allows
+                    users to view Brett's work and contact him to commission custom pieces.<br>
+                    <u><i>Built with</u>: HTML, CSS, JavaScript, jQuery</i><br>
+                    <u>Repository</u>: <a href="https://github.com/StephanieRuthJones/love"
+                        target="_blank">https://github.com/StephanieRuthJones/love</a><br>
+                </p>
+            </div>
+            <div class="project">
                 <h5>LEAD TO LOVE</h5>
                 <p>
-                    <u>Description</u>: A website based on the New York Time’s article, “The 36 Questions That Lead To
+                    <u>Description</u>: A full-stack website based on the New York Times article, “The 36 Questions That
+                    Lead To
                     Love” by
                     Daniel Jones. The user cycles through 36 questions that s/he can discuss with a romantic partner to
                     develop or
@@ -117,10 +143,6 @@
                 </p>
             </div>
 
-
-
-
-
             <h4>Professional Experience</h4>
 
             <div class="job">
@@ -139,7 +161,7 @@
                 <h6>Galvanize | 2018 - 2019</h6>
                 <p>Assisted in biweekly Learn to Code: JavaScript 101 workshops that teach novice developers the
                     fundamentals of JavaScript<br>
-                    • Provided explanations of and answered questions regarding basic JavaScript concepts<br>
+                    • Provided explanations of, and answered questions regarding, basic JavaScript concepts<br>
                     • Coached students as they solved coding challenges of increasing complexity
                 </p>
             </div>
@@ -164,18 +186,10 @@
                 <h6>Northwestern University Neurodevelopmental Disabilities Lab | 2013</h6>
                 <p>Coded and analyzed linguistic behaviors of parents of children with autism and controls associated
                     with phenotypic behavioral and cognitive profiles of autism spectrum disorder<br>
-                    • At request of Principal Investigator, joined a research team working elucidate genetic basis of
+                    • At request of Principal Investigator, joined a research team working to elucidate genetic basis of
                     autism spectrum disorder
                 </p>
             </div>
-
-
-
-
-
-
-
-
 
         </div>
 
@@ -185,10 +199,19 @@
                 <div class="col-md-12 text-center">
                     <p class="subHeading">Hiring?</p>
                     <h2>I'd love to hear from you.</h2>
-                    <a href="mailTo:stephanieruthjones@gmail.com" class="contactButton">Get in touch!</a>
+                    <a class="typeform-share button" href="https://stephaniejones.typeform.com/to/y9vPF7"
+                        data-mode="popup"
+                        style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+                        target="_blank">Get In Touch!</a>
+
                 </div>
             </div>
+
+
         </div>
+
+
+        <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

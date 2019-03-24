@@ -19,7 +19,7 @@
 
 }
 
-#phone {
+#phone, #email {
   font-size: 15px;
 }
 
@@ -106,9 +106,4 @@ h4 {
 .footer > .contactSection > .text-center > h2 {
   font-size: 15px;
 }
-
-.contactButton {
-  font-size: 20px;
-}
-
 
