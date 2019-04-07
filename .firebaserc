@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "resume-b01ad"
+    "default": "final-resume",
+    "staging": "final-resume"
   }
 }
